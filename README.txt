@@ -84,3 +84,5 @@ Interpreting Results:
 	this file does not get overwritten with subsequent runs of LoopFinder
 	make sure to delete the old results folder for subsequent runs,
 	or start with a fresh set of PDBs in a new location
+
+"cmd_line_input.txt" : a batch file for later processing (not included in this sample)
