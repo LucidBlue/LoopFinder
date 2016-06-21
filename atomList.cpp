@@ -252,11 +252,11 @@ void ProteinComplex::AllAtomsDistCalc(double bind_distance, bool aCarbons)
 	// iterate over possible first chains from complex
 	for (std::vector<std::vector<AtomData> >::iterator ch1 = ComplexAtomData.begin(); ch1 < ComplexAtomData.end(); ch1++)
 	{
-		// iterate over atoms from first chain
-		for (std::vector<AtomData>::iterator at1 = ch1->begin(); at1 < ch1->end(); at1++)
+		// iterate over possible second chains from complex
+		for (std::vector<std::vector<AtomData> >::iterator ch2 = ch1 + 1; ch2 < ComplexAtomData.end(); ch2++)
 		{
-			// iterate over possible second chains from complex
-			for (std::vector<std::vector<AtomData> >::iterator ch2 = ch1 + 1; ch2 < ComplexAtomData.end(); ch2++)
+			// iterate over atoms from first chain
+			for (std::vector<AtomData>::iterator at1 = ch1->begin(); at1 < ch1->end(); at1++)
 			{
 				// iterate over atoms from second chain
 				for (std::vector<AtomData>::iterator at2 = ch2->begin(); at2 < ch2->end(); at2++)
