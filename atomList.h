@@ -1,4 +1,4 @@
-// 
+//
 // atomList.h
 // Created by Brad Sheneman
 // 10/20/2012
@@ -8,8 +8,8 @@
 #include <vector>
 #include <unordered_map>
 
-#include "boost/filesystem.hpp"
-#include "boost/filesystem/fstream.hpp"
+#include <boost/filesystem.hpp>
+#include <boost/filesystem/fstream.hpp>
 namespace bfs = boost::filesystem;
 
 #include "structures.h"
@@ -27,14 +27,14 @@ public:
 	float x_cd;
 	float y_cd;
 	float z_cd;
-	
+
 	float occupancy;
 	float temp_factor;
 	int charge;
 
 	bool interface_atom;
 	std::vector<std::string> interfaces;
-	
+
 	AtomData();
 	AtomData(const AtomData &source);
 	AtomData& operator= (const AtomData &source);
@@ -45,7 +45,7 @@ struct AtomPairData
 {
 	AtomData atom1;
 	AtomData atom2;
-	
+
 	double distance;
 };
 
@@ -78,11 +78,11 @@ class ProteinComplex
 {
 public:
 	bool FindChainPair(std::vector<std::string>& pair_list, std::string chain_pair);
-//  void LoadPDB(bfs::path filename);
+	//  void LoadPDB(bfs::path filename);
 	bool LoadPDB2(bfs::path filename);
 	void InsertAtomData(AtomData& atom);
 	double AtomDistCalc(AtomData& atom1, AtomData& atom2);
-	void TestCalc();
+	// void TestCalc();
 	void AllAtomsDistCalc(double bind_distance, bool aCarbons);
 	void ExtractResidues();
 	void PrintResidues(bfs::path filename);
@@ -93,6 +93,7 @@ public:
 private:
 	int __num_models__;
 	std::vector<std::string> ComplexInteractions;
+	// raw chains of atoms read directly from PDB file
 	std::vector<std::vector<AtomData> > ComplexAtomData;
 	std::vector<std::vector<ResidueData> > ComplexResidues;
 	std::vector<LoopData> ComplexLoops;

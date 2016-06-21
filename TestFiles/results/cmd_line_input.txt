@@ -1,0 +1,6 @@
+ --pdb_filename=1UTC_AP_c.pdb --partners=A_P --interface_cutoff=6.5 --trials=20 --trial_output=1UTC_ddg
+ --pdb_filename=1UTC_AB_c.pdb --partners=A_B --interface_cutoff=6.5 --trials=20 --trial_output=1UTC_ddg
+ --pdb_filename=3BPS_AE_c.pdb --partners=A_E --interface_cutoff=6.5 --trials=20 --trial_output=3BPS_ddg
+ --pdb_filename=1TN6_AB_c.pdb --partners=A_B --interface_cutoff=6.5 --trials=20 --trial_output=1TN6_ddg
+ --pdb_filename=1TN6_BC_c.pdb --partners=B_C --interface_cutoff=6.5 --trials=20 --trial_output=1TN6_ddg
+ --pdb_filename=3BPS_PA_c.pdb --partners=P_A --interface_cutoff=6.5 --trials=20 --trial_output=3BPS_ddg

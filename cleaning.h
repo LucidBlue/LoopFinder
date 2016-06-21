@@ -4,8 +4,8 @@
 #include <string>
 #include <vector>
 
-#include "boost/filesystem.hpp"
-#include "boost/filesystem/fstream.hpp"
+#include <boost/filesystem.hpp>
+#include <boost/filesystem/fstream.hpp>
 namespace bfs = boost::filesystem;
 
 #include "structures.h"

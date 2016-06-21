@@ -1,0 +1,81 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+SinglePDB	/home/brad/src/loop-finder/singlePDB.cpp	/^void SinglePDB (bfs::path input, bfs::path output, ParamData params)$/;"	function	line:6	signature:(bfs::path input, bfs::path output, ParamData params)
+AtomData	/home/brad/src/loop-finder/atomList.cpp	/^AtomData::AtomData()$/;"	function	line:22	class:AtomData	signature:()
+AtomData	/home/brad/src/loop-finder/atomList.cpp	/^AtomData::AtomData(const AtomData &source)$/;"	function	line:42	class:AtomData	signature:(const AtomData &source)
+operator =	/home/brad/src/loop-finder/atomList.cpp	/^AtomData& AtomData::operator= (const AtomData &source)$/;"	function	line:63	class:AtomData	signature:(const AtomData &source)
+FindChainPair	/home/brad/src/loop-finder/atomList.cpp	/^bool ProteinComplex::FindChainPair(std::vector<std::string>& pair_list, std::string chain_pair)$/;"	function	line:86	class:ProteinComplex	signature:(std::vector<std::string>& pair_list, std::string chain_pair)
+LoadPDB2	/home/brad/src/loop-finder/atomList.cpp	/^bool ProteinComplex::LoadPDB2(bfs::path filename)$/;"	function	line:112	class:ProteinComplex	signature:(bfs::path filename)
+InsertAtomData	/home/brad/src/loop-finder/atomList.cpp	/^void ProteinComplex::InsertAtomData(AtomData& atom)$/;"	function	line:198	class:ProteinComplex	signature:(AtomData& atom)
+AtomDistCalc	/home/brad/src/loop-finder/atomList.cpp	/^double ProteinComplex::AtomDistCalc(AtomData& atom1, AtomData& atom2)$/;"	function	line:221	class:ProteinComplex	signature:(AtomData& atom1, AtomData& atom2)
+TestCalc	/home/brad/src/loop-finder/atomList.cpp	/^void ProteinComplex::TestCalc()$/;"	function	line:241	class:ProteinComplex	signature:()
+AllAtomsDistCalc	/home/brad/src/loop-finder/atomList.cpp	/^void ProteinComplex::AllAtomsDistCalc(double bind_distance, bool aCarbons)$/;"	function	line:252	class:ProteinComplex	signature:(double bind_distance, bool aCarbons)
+ExtractResidues	/home/brad/src/loop-finder/atomList.cpp	/^void ProteinComplex::ExtractResidues()$/;"	function	line:336	class:ProteinComplex	signature:()
+PrintResidues	/home/brad/src/loop-finder/atomList.cpp	/^void ProteinComplex::PrintResidues(bfs::path filename)$/;"	function	line:415	class:ProteinComplex	signature:(bfs::path filename)
+LoopFinder	/home/brad/src/loop-finder/atomList.cpp	/^void ProteinComplex::LoopFinder(int chain_index, ParamData params)$/;"	function	line:431	class:ProteinComplex	signature:(int chain_index, ParamData params)
+ExtractLoops	/home/brad/src/loop-finder/atomList.cpp	/^void ProteinComplex::ExtractLoops(ParamData params)$/;"	function	line:530	class:ProteinComplex	signature:(ParamData params)
+PrintOutput	/home/brad/src/loop-finder/atomList.cpp	/^void ProteinComplex::PrintOutput(bfs::path input_file, bfs::path output, ParamData params)$/;"	function	line:536	class:ProteinComplex	signature:(bfs::path input_file, bfs::path output, ParamData params)
+STRUCTURES_H	/home/brad/src/loop-finder/structures.h	/^#define STRUCTURES_H$/;"	macro	line:2
+ParamData	/home/brad/src/loop-finder/structures.h	/^struct ParamData$/;"	struct	line:4
+bind_dist	/home/brad/src/loop-finder/structures.h	/^	double bind_dist;$/;"	member	line:6	struct:ParamData
+min_res	/home/brad/src/loop-finder/structures.h	/^	int min_res;$/;"	member	line:8	struct:ParamData
+max_res	/home/brad/src/loop-finder/structures.h	/^	int max_res;$/;"	member	line:9	struct:ParamData
+min_perc	/home/brad/src/loop-finder/structures.h	/^	double min_perc;$/;"	member	line:10	struct:ParamData
+max_dist	/home/brad/src/loop-finder/structures.h	/^	double max_dist;$/;"	member	line:11	struct:ParamData
+len_factor	/home/brad/src/loop-finder/structures.h	/^	double len_factor;$/;"	member	line:12	struct:ParamData
+loop_interface_perc	/home/brad/src/loop-finder/structures.h	/^	double loop_interface_perc;$/;"	member	line:13	struct:ParamData
+num_partners	/home/brad/src/loop-finder/structures.h	/^	int num_partners;$/;"	member	line:14	struct:ParamData
+aCarbons_only	/home/brad/src/loop-finder/structures.h	/^	bool aCarbons_only;$/;"	member	line:15	struct:ParamData
+AtomData	/home/brad/src/loop-finder/atomList.h	/^class AtomData$/;"	class	line:17
+atom_num	/home/brad/src/loop-finder/atomList.h	/^	int atom_num;$/;"	member	line:20	class:AtomData
+residue_num	/home/brad/src/loop-finder/atomList.h	/^	int residue_num;$/;"	member	line:21	class:AtomData
+chain_id	/home/brad/src/loop-finder/atomList.h	/^	char chain_id;$/;"	member	line:22	class:AtomData
+atom_type	/home/brad/src/loop-finder/atomList.h	/^	std::string atom_type;$/;"	member	line:23	class:AtomData
+atom_element	/home/brad/src/loop-finder/atomList.h	/^	std::string atom_element;$/;"	member	line:24	class:AtomData
+residue_type	/home/brad/src/loop-finder/atomList.h	/^	std::string residue_type;$/;"	member	line:25	class:AtomData
+x_cd	/home/brad/src/loop-finder/atomList.h	/^	float x_cd;$/;"	member	line:27	class:AtomData
+y_cd	/home/brad/src/loop-finder/atomList.h	/^	float y_cd;$/;"	member	line:28	class:AtomData
+z_cd	/home/brad/src/loop-finder/atomList.h	/^	float z_cd;$/;"	member	line:29	class:AtomData
+occupancy	/home/brad/src/loop-finder/atomList.h	/^	float occupancy;$/;"	member	line:31	class:AtomData
+temp_factor	/home/brad/src/loop-finder/atomList.h	/^	float temp_factor;$/;"	member	line:32	class:AtomData
+charge	/home/brad/src/loop-finder/atomList.h	/^	int charge;$/;"	member	line:33	class:AtomData
+interface_atom	/home/brad/src/loop-finder/atomList.h	/^	bool interface_atom;$/;"	member	line:35	class:AtomData
+interfaces	/home/brad/src/loop-finder/atomList.h	/^	std::vector<std::string> interfaces;$/;"	member	line:36	class:AtomData
+AtomPairData	/home/brad/src/loop-finder/atomList.h	/^struct AtomPairData$/;"	struct	line:44
+atom1	/home/brad/src/loop-finder/atomList.h	/^	AtomData atom1;$/;"	member	line:46	struct:AtomPairData
+atom2	/home/brad/src/loop-finder/atomList.h	/^	AtomData atom2;$/;"	member	line:47	struct:AtomPairData
+distance	/home/brad/src/loop-finder/atomList.h	/^	double distance;$/;"	member	line:49	struct:AtomPairData
+ResidueData	/home/brad/src/loop-finder/atomList.h	/^struct ResidueData$/;"	struct	line:52
+aCarbon	/home/brad/src/loop-finder/atomList.h	/^	AtomData aCarbon;$/;"	member	line:54	struct:ResidueData
+interface_res	/home/brad/src/loop-finder/atomList.h	/^	bool interface_res;$/;"	member	line:55	struct:ResidueData
+distance_to_start	/home/brad/src/loop-finder/atomList.h	/^	double distance_to_start;$/;"	member	line:56	struct:ResidueData
+interfaces	/home/brad/src/loop-finder/atomList.h	/^	std::vector<std::string> interfaces;$/;"	member	line:57	struct:ResidueData
+LoopData	/home/brad/src/loop-finder/atomList.h	/^struct LoopData$/;"	struct	line:60
+LoopResidues	/home/brad/src/loop-finder/atomList.h	/^	std::vector<ResidueData> LoopResidues;$/;"	member	line:62	struct:LoopData
+Interactions	/home/brad/src/loop-finder/atomList.h	/^	std::vector<std::pair<std::string, double> > Interactions;$/;"	member	line:63	struct:LoopData
+chainPairIter	/home/brad/src/loop-finder/atomList.h	/^typedef std::vector<std::string>::iterator chainPairIter;$/;"	typedef	line:66
+stringDoublePair	/home/brad/src/loop-finder/atomList.h	/^typedef std::pair<std::string, double> stringDoublePair;$/;"	typedef	line:68
+sdpVectorIter	/home/brad/src/loop-finder/atomList.h	/^typedef std::vector<stringDoublePair>::iterator sdpVectorIter;$/;"	typedef	line:69
+atomComplexIter	/home/brad/src/loop-finder/atomList.h	/^typedef std::vector<std::vector<AtomData> >::iterator atomComplexIter;$/;"	typedef	line:71
+atomVectorIter	/home/brad/src/loop-finder/atomList.h	/^typedef std::vector<AtomData>::iterator atomVectorIter;$/;"	typedef	line:72
+resComplexIter	/home/brad/src/loop-finder/atomList.h	/^typedef std::vector<std::vector<ResidueData> >::iterator resComplexIter;$/;"	typedef	line:74
+resVectorIter	/home/brad/src/loop-finder/atomList.h	/^typedef std::vector<ResidueData>::iterator resVectorIter;$/;"	typedef	line:75
+ProteinComplex	/home/brad/src/loop-finder/atomList.h	/^class ProteinComplex$/;"	class	line:77
+__num_models__	/home/brad/src/loop-finder/atomList.h	/^	int __num_models__;$/;"	member	line:94	class:ProteinComplex
+ComplexInteractions	/home/brad/src/loop-finder/atomList.h	/^	std::vector<std::string> ComplexInteractions;$/;"	member	line:95	class:ProteinComplex
+ComplexAtomData	/home/brad/src/loop-finder/atomList.h	/^	std::vector<std::vector<AtomData> > ComplexAtomData;$/;"	member	line:96	class:ProteinComplex
+ComplexResidues	/home/brad/src/loop-finder/atomList.h	/^	std::vector<std::vector<ResidueData> > ComplexResidues;$/;"	member	line:97	class:ProteinComplex
+ComplexLoops	/home/brad/src/loop-finder/atomList.h	/^	std::vector<LoopData> ComplexLoops;$/;"	member	line:98	class:ProteinComplex
+NumInterfaceRes	/home/brad/src/loop-finder/atomList.h	/^	std::unordered_map<char,int> NumInterfaceRes;$/;"	member	line:99	class:ProteinComplex
+main	/home/brad/src/loop-finder/LoopFinder.cpp	/^int main(int argc, char* const argv[])$/;"	function	line:13	signature:(int argc, char* const argv[])
+CLEANING_H	/home/brad/src/loop-finder/cleaning.h	/^#define CLEANING_H$/;"	macro	line:2
+ChangeFilename	/home/brad/src/loop-finder/cleaning.cpp	/^std::string ChangeFilename(bfs::path input_file, std::string append, std::string extension)$/;"	function	line:7	signature:(bfs::path input_file, std::string append, std::string extension)
+FindDuplicates	/home/brad/src/loop-finder/cleaning.cpp	/^std::vector<std::vector<char> > FindDuplicates(bfs::path filename)$/;"	function	line:20	signature:(bfs::path filename)
+RemoveDuplicates	/home/brad/src/loop-finder/cleaning.cpp	/^std::vector<char> RemoveDuplicates(ParamData params, std::vector<std::vector<char> > ChainDuplicates)$/;"	function	line:62	signature:(ParamData params, std::vector<std::vector<char> > ChainDuplicates)
+IsDuplicate	/home/brad/src/loop-finder/cleaning.cpp	/^bool IsDuplicate(char chain_ID_test, std::vector<char> Chains)$/;"	function	line:86	signature:(char chain_ID_test, std::vector<char> Chains)
+CleanPDB	/home/brad/src/loop-finder/cleaning.cpp	/^void CleanPDB(bfs::path input, bfs::path output, std::vector<char> Chains)$/;"	function	line:98	signature:(bfs::path input, bfs::path output, std::vector<char> Chains)
+SplitPDB	/home/brad/src/loop-finder/cleaning.cpp	/^void SplitPDB(bfs::path input, std::vector<char> chains)$/;"	function	line:144	signature:(bfs::path input, std::vector<char> chains)
